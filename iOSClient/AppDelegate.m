@@ -120,7 +120,7 @@
         [[NSFileManager defaultManager] createDirectoryAtPath:dir withIntermediateDirectories:YES attributes:nil error:nil];
 
     // create dir Database Nextcloud
-    dir = [[dirGroup URLByAppendingPathComponent:appDatabaseNextcloud] path];
+    dir = [[dirGroup URLByAppendingPathComponent:appDatabaseMommyAccess] path];
     if (![[NSFileManager defaultManager] fileExistsAtPath:dir])
     [[NSFileManager defaultManager] createDirectoryAtPath:dir withIntermediateDirectories:YES attributes:nil error:nil];
 

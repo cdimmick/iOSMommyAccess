@@ -24,7 +24,7 @@
 #import <UIKit/UIKit.h>
 
 extern NSString *const appApplicationSupport;
-extern NSString *const appDatabaseNextcloud;
+extern NSString *const appDatabaseMommyAccess;
 extern NSString *const appCertificates;
 
 extern NSString *const webDAV;

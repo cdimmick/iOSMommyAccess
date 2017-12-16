@@ -36,7 +36,9 @@ class NCManageDatabase: NSObject {
         
         let configCompact = Realm.Configuration(
             
-            fileURL: dirGroup?.appendingPathComponent("\(appDatabaseNextcloud)/\(k_databaseDefault)"),
+            
+            
+            fileURL: dirGroup?.appendingPathComponent("\(appDatabaseMommyAccess)/\(k_databaseDefault)"),
             
             shouldCompactOnLaunch: { totalBytes, usedBytes in
             // totalBytes refers to the size of the file on disk in bytes (data + free space)
@@ -56,7 +58,7 @@ class NCManageDatabase: NSObject {
         
         let config = Realm.Configuration(
         
-            fileURL: dirGroup?.appendingPathComponent("\(appDatabaseNextcloud)/\(k_databaseDefault)"),
+            fileURL: dirGroup?.appendingPathComponent("\(appDatabaseMommyAccess)/\(k_databaseDefault)"),
             schemaVersion: 11,
             
             // 10 : Version 2.18.0

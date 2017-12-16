@@ -64,10 +64,10 @@ class NCBrandColor: NSObject {
         return instance
     }()
     
-    @objc public let brand:                           String = "Nextcloud"
-    @objc public let mailMe:                          String = "ios@nextcloud.com"
-    @objc public let textCopyrightNextcloudiOS:       String = "Nextcloud for iOS %@ © 2017 T.W.S. Inc."
-    @objc public let textCopyrightNextcloudServer:    String = "Nextcloud Server %@"
+    @objc public let brand:                           String = "MommyAccess"
+    @objc public let mailMe:                          String = "ios@mommyaccess.com"
+    @objc public let textCopyrightNextcloudiOS:       String = "Mommy Access for iOS %@ © 2017 Au Development, LLC."
+    @objc public let textCopyrightNextcloudServer:    String = "Mommy Access Server %@"
     @objc public let loginBaseUrl:                    String = "https://cloud.twsweb.it"
     @objc public let pushNotificationServer:          String = "https://push-notifications.nextcloud.com"
     @objc public let linkLoginProvider:               String = "https://nextcloud.com/providers"
@@ -81,7 +81,7 @@ class NCBrandColor: NSObject {
     @objc public var folderDefaultAutoUpload:         String = "Photos"
     
     // Capabilities Group
-    @objc public let capabilitiesGroups:              String = "group.it.twsweb.Crypto-Cloud"
+    @objc public let capabilitiesGroups:              String = "group.com.audevelopment.MommyAccess"
     
     // Options
     @objc public let use_login_web:                   Bool = false

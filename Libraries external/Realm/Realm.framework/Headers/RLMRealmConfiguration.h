@@ -118,6 +118,8 @@ typedef BOOL (^RLMShouldCompactOnLaunchBlock)(NSUInteger totalBytes, NSUInteger 
 /// The classes managed by the Realm.
 @property (nonatomic, copy, nullable) NSArray *objectClasses;
 
+- (nonnull id)copyWithZone:(nullable NSZone *)zone;
+
 @end
 
 NS_ASSUME_NONNULL_END
