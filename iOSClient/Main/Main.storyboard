@@ -57,7 +57,7 @@
         <!--More-->
         <scene sceneID="Mdr-ch-zRI">
             <objects>
-                <viewController id="9DM-ts-oJu" customClass="CCMore" customModule="Nextcloud" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9DM-ts-oJu" customClass="CCMore" customModule="MommyAccess" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XtC-Je-LUc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,7 +81,7 @@
                                 <rect key="frame" x="0.0" y="188" width="375" height="489"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="50" id="zQQ-52-W9I" customClass="CCCellMore" customModule="Nextcloud" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="50" id="zQQ-52-W9I" customClass="CCCellMore" customModule="MommyAccess" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.333333333333336" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zQQ-52-W9I" id="Zho-os-HYj">
@@ -121,7 +121,7 @@
                                     <outlet property="delegate" destination="9DM-ts-oJu" id="ePC-4O-7ui"/>
                                 </connections>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="DWx-1W-vs0" customClass="SwiftyAvatar" customModule="Nextcloud" customModuleProvider="target">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="DWx-1W-vs0" customClass="SwiftyAvatar" customModule="MommyAccess" customModuleProvider="target">
                                 <rect key="frame" x="15" y="103" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="QAM-AU-L76"/>
@@ -300,7 +300,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Header" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVV-2C-7PP">
-                                    <rect key="frame" x="8" y="3.3333333333333339" width="359" height="15.000000000000002"/>
+                                    <rect key="frame" x="8" y="2.6666666666666661" width="359" height="14.999999999999998"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
@@ -412,7 +412,7 @@
         <!--Main Tab Bar Controller-->
         <scene sceneID="gY3-Ur-rTC">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="FkP-Lh-8zt" customClass="CCMainTabBarController" customModule="Nextcloud" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="FkP-Lh-8zt" customClass="CCMainTabBarController" customModule="MommyAccess" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ozb-fg-0GE">
                         <barButtonItem key="backBarButtonItem" title="Back" id="oUu-2v-gUF"/>
